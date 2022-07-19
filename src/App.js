@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/navigation/navbar';
+import SlideImage from './component/slideImage/slideImage';
+import Calculation from './component/track/calculation';
+import Motivation from './component/motivation/motivation';
+import YesYouCan from './component/yesYouCan/yesYouCan';
+import Download from './component/download/download';
+import Footer from './component/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <div className='header-wrapper'>
+        <Navbar />
+        <SlideImage />
+      </div>
+      <div>
+        <Calculation />
+      </div>
+      <div>
+        <Motivation />
+      </div>
+      <YesYouCan />
+      <Download />
+      <Footer />
+    </div >
   );
 }
 

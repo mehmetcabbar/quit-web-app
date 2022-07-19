@@ -1,0 +1,173 @@
+.footerContainer {
+    background-color: #00e300;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex: 1;
+    min-height: 600px;
+    flex-direction: column;
+    background-image: url(/src/images/footerBg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.footerBoxWrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.footerLeftSide {
+    flex: 1;
+    padding-top: 100px;
+}
+
+.footerRightSide {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.footerfirstNavigation {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.footerSignature {
+    border-top: 0.5px solid white;
+    padding-top: 30px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.footerTitle {
+    color: #33444c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footerAboutText {
+    color: white;
+    margin-top: -14px;
+    padding-right: 40px;
+}
+
+.footerGoogle {
+    padding-right: 8px;
+    width: 194px;
+    height: auto;
+}
+
+.footerContact {
+    margin-top: 40px;
+}
+
+.footerContactTitle {
+    color: #33444c;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.footerContactText {
+    margin-top: -14px;
+    color: white;
+    padding-right: 40px;
+}
+
+.footerContactLink {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #33444c
+}
+
+.footerContactLink:hover {
+    color: white;
+    transition: 0.8s ease;
+}
+
+.footerServices {
+    color: #33444c;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footerServicesZone {
+    margin-top: -24px;
+    list-style: none;
+    margin-left: -38px;
+}
+
+.footerServicesLi {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.footerServicesLink {
+    color: white;
+    text-decoration: none;
+}
+
+.footerServicesLink:hover {
+    color: #33444c;
+    transition: 0.8s ease;
+    text-decoration: none;
+}
+
+@media (max-width:1100px) {
+    .footerContainer {
+        flex-direction: column;
+        background-image: none;
+
+    }
+
+    .footerBoxWrapper {
+        flex-direction: column;
+    }
+
+    .footerLeftSide {
+        flex: 1;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .footerRightSide {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .footerDownloadLink {
+        margin-top: 36px;
+    }
+
+    .footerGoogle {
+        padding-right: 0px;
+    }
+
+    .footerContact {
+        margin-top: 60px;
+    }
+
+    .footerContactText {
+        padding-right: 0px;
+
+    }
+
+    .footerAboutText {
+        color: white;
+        margin-top: -14px;
+        padding-right: 0px;
+    }
+
+    .footerfirstNavigation {
+        flex: 1;
+        padding-top: 24px;
+    }
+}

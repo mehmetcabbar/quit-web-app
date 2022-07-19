@@ -1,0 +1,79 @@
+.downloadWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column;
+}
+
+.downloadtitle {
+    color: #00e300;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.downloadSubTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #979797;
+    margin-top: -40px;
+}
+
+.downloadText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+    margin-top: -14px;
+    margin-bottom: 36px;
+}
+
+.linkPadding {
+    padding-right: 14px;
+}
+
+@media (max-width:1100px) {
+    .downloadWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+    }
+
+    .downloadtitle {
+        color: #00e300;
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .downloadSubTitle {
+        font-size: 14px;
+        font-weight: 600;
+        color: #979797;
+        margin-top: -40px;
+    }
+
+    .downloadText {
+        font-size: 14px;
+        font-weight: 400;
+        color: #979797;
+        margin-top: -14px;
+        margin-bottom: 36px;
+    }
+
+    .linkPadding {
+        padding-right: 8px;
+    }
+
+    .appStoreLinkPadding {
+        padding-right: 8px;
+    }
+}
