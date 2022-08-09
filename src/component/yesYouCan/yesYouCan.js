@@ -9,9 +9,7 @@ function YesYouCan() {
                     Yes you can <br /> via Quit Buddy
                 </h3>
                 <p className='youCanText'>
-                    Senectus aliquet consectetur at condimentum a nam leo sociosqu cum  a adipiscing in enim leo adipiscing donec a luctus per vestibulum a pretium
-                    posuere a. Adipiscing fusce vestibulum adipiscing neque magna ridiculus volutpat torquent pulvinar faucibus vestibulum urna ad interdum metus a.
-                    Varius dui accumsan scelerisque posuere magna fermentum hendrerit .
+                    Being open to innovations in life and allowing our habits to change is one of the biggest developments. <br className='brclass' /> Investing in yourself is always good. Quitting smoking is invaluable to your future, health and economy.<br className='brclass' /> How would you like to achieve this together?
                 </p>
             </div>
         </div>

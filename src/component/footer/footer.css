@@ -144,7 +144,7 @@
     }
 
     .footerDownloadLink {
-        margin-top: 36px;
+        margin-top: 48px;
     }
 
     .footerGoogle {
@@ -164,6 +164,7 @@
         color: white;
         margin-top: -14px;
         padding-right: 0px;
+        padding-bottom: 14px;
     }
 
     .footerfirstNavigation {

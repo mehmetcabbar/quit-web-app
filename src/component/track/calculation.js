@@ -1,25 +1,25 @@
 import React, { useEffect } from 'react';
 import './calculation.css';
-import ScreenShot from '../../images/screen.svg';
+import AchievementScreen from '../../images/achievements.svg';
 import Medal from '../../images/medal.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function Calculation() {
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+        Aos.init({ duration: 2000, disable: 'mobile' });
     }, [])
     return (
-        <div id='#calculation' className='calculationContainer'>
+        <div id='calculation' className='calculationContainer'>
             <div data-aos="fade-right" className='calFirstBox'>
-                <img src={ScreenShot} className='calImage' alt='quit second screen' />
+                <img src={AchievementScreen} className='calImage' alt='quit second screen' />
             </div>
-            <div className='calSecondBox'>
+            <div data-aos="fade-left" className='calSecondBox'>
                 <img src={Medal} className='medalStyle' alt='medal' />
-                <h4 className='smallTitle'>Achievements, Health Improvements</h4>
+                <h4 className='smallTitle'>Money, Achievements, Health</h4>
                 <h3 className='biggerTitle'>Track your success</h3>
                 <p className='basicText'>
-                    Senectus aliquet consectetur at condimentum a nam leo sociosqu cum a adipiscing in enim leo adipiscing donec a luctus per vestibulum a pretium posuere a. Adipiscing fusce vestibulum adipiscing neque magna ridiculus volutpat torquent pulvinar faucibus vestibulum urna ad interdum metus a.  Varius dui accumsan scelerisque posuere magna fermentum hendrerit .
+                    Your achievements are your biggest supporter in the quit smoking process. It is very easy to see these achievements in the future,  monitor the progress you have made since you quit smoking, and achieve the results. You simply download Quit Buddy and let this work be done for you. Enjoy your new life period without smoking!
                 </p>
             </div>
         </div>

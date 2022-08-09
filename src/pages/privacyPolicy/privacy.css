@@ -1,0 +1,39 @@
+.privacyContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.privacyContainer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+}
+
+.privacyContainer p strong {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.privacyTitle {
+    font-size: 24px;
+}
+
+.privacySecondTitle {
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+.privacyText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+}
+
+.privacyText strong {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}

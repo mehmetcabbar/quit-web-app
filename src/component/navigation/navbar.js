@@ -29,20 +29,20 @@ function Navbar() {
     return (
 
         <div className='navbar'>
-            <a href='/#' className='nav-branding'> Quit Buddy </a>
+            <a href='/' className='nav-branding'> Quit Buddy </a>
 
             <ul onClick={handleMenu} className={navMenu}>
                 <li className='nav-item'>
-                    <a href='/#' className='nav-link'>Home</a>
+                    <a href='/' className='nav-link'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/#' className='nav-link'>Why Us?</a>
+                    <a href='/#calculation' className='nav-link'>Why Us?</a>
                 </li>
                 {/* <li className='nav-item'>
                     <a href='/#' className='nav-link'>FAQ</a>
                 </li> */}
                 <li className='nav-item'>
-                    <a href='/#' className='nav-link'>Contact</a>
+                    <a href='mailto:support@quitbuddy.app?subject=About contact"' className='nav-link'>Contact</a>
                 </li>
             </ul>
             <div onClick={handleMenu} className={className}>

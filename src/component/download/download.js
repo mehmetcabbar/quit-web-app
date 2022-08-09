@@ -1,23 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './download.css';
 import GoogleLink from '../../images/google.svg';
 import AppStoreLink from '../../images/appstore.svg';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Download() {
+    useEffect(() => {
+        Aos.init({ duration: 2000, disable: 'mobile' });
+    }, [])
     return (
         <div className='downloadContainer'>
             <div className='downloadWrapper'>
                 <h3 className='downloadtitle'>Download Quit Buddy</h3>
                 <h6 className='downloadSubTitle'>Take a step towards your healthy future now.</h6>
                 <p className='downloadText'>
-                    Senectus aliquet consectetur at condimentum a nam leo sociosqu cum
-                    a adipiscing in enim leo adipiscing donec a luctus per vestibulum a pretium
-                    posuere a. Adipiscing fusce vestibulum adipiscing neque magna ridiculus
-                    volutpat torquent pulvinar faucibus vestibulum urna ad interdum metus a.
-                    Varius dui accumsan scelerisque posuere magna fermentum hendrerit .
+                    You are the biggest investor in your own life. <br className='brclass' />
+                    Today you can take a step to live healthy, happy and away from the risks of disease. <br className='brclass' />
+                    Quit smoking via Quit Buddy. Download now! <br className='brclass' />
+
                 </p>
-                <div className='lasDownloadBox'>
+                <div data-aos="fade-up" className='lasDownloadBox'>
                     <a href='/#' className='linkPadding'>
                         <img src={GoogleLink} alt='google link' />
                     </a>

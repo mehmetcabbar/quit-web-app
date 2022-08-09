@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 import GoogleLink from '../../images/google.svg';
 import AppStoreLink from '../../images/appstore.svg';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -10,7 +11,9 @@ function Footer() {
                 <div className='footerLeftSide'>
                     <div className='footerAbout'>
                         <h4 className='footerTitle'>Quit Buddy</h4>
-                        <p className='footerAboutText'>Senectus aliquet consectetur at condimentum a nam leo sociosqu cum a adipiscing in enim leo adipiscing donec a luctus per vestibulum a pretium posuere a. Adipiscing fusce vestibulum adipiscing neque magna ridiculus volutpat torquent pulvinar faucibus vestibulum urna ad interdum metus a.  Varius dui accumsan scelerisque posuere magna fermentum hendrerit .</p>
+                        <p className='footerAboutText'>
+                            It's fascinating to see people lives change. Technology can help anyone who wants to change their future and get rid of some of their habits. We want to help anyone who wants to quit smoking via Quit Buddy.
+                        </p>
                         <div className='footerDownloadLink'>
                             <img className='footerGoogle' src={GoogleLink} alt='footer google link' />
                             <img src={AppStoreLink} alt='footer app store link' />
@@ -22,7 +25,7 @@ function Footer() {
                             We have a team that is willing to communicate and help you with
                             any question you may have. Please contact us.
                         </p>
-                        <a href='/#' className='footerContactLink'>Click here for contact</a>
+                        <a href='mailto:support@quitbuddy.app?subject=Support request' className='footerContactLink'>Click here for contact</a>
                     </div>
                 </div>
                 <div className='footerRightSide'>
@@ -30,16 +33,16 @@ function Footer() {
                         <h6 className='footerServices'>Services</h6>
                         <ul className='footerServicesZone'>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Counter</a>
+                                <a href='/#calculation' className='footerServicesLink'>Counter</a>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Motivation</a>
+                                <a href='/#motivation' className='footerServicesLink'>Motivation</a>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Health</a>
+                                <a href='/#calculation' className='footerServicesLink'>Health</a>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Achievements</a>
+                                <a href='/#calculation' className='footerServicesLink'>Achievements</a>
                             </li>
                         </ul>
                     </div>
@@ -47,13 +50,13 @@ function Footer() {
                         <h6 className='footerServices'>Menu</h6>
                         <ul className='footerServicesZone'>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Home</a>
+                                <a href='/' className='footerServicesLink'>Home</a>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Why Us?</a>
+                                <a href='/#calculation' className='footerServicesLink'>Why Us?</a>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Contact</a>
+                                <a href='mailto:support@quitbuddy.app?subject=About contact' className='footerServicesLink'>Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -61,10 +64,10 @@ function Footer() {
                         <h6 className='footerServices'>Legal</h6>
                         <ul className='footerServicesZone'>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Term of Use</a>
+                                <Link to='/termofuse' className='footerServicesLink'>Term of Use</Link>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#' className='footerServicesLink'>Privacy Policy</a>
+                                <Link to='/privacypolicy' className='footerServicesLink'>Privacy Policy</Link>
                             </li>
                         </ul>
                     </div>

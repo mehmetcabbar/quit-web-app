@@ -1,0 +1,27 @@
+.termsContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.termsContainer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+}
+
+.termsContainer p strong {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.termsTitle {
+    font-size: 24px;
+}
+
+.termsSecondTitle {
+    font-size: 18px;
+    padding-top: 24px;
+}

@@ -17,13 +17,17 @@
     min-height: 500px;
 }
 
+.motImage {
+    width: 125%;
+}
+
 .motSecondBox {
     flex: 1;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     min-height: 500px;
 }
 
@@ -46,7 +50,7 @@
         align-items: center;
         text-align: center;
         padding-top: 0px;
-        padding-bottom: 60px;
+        padding-bottom: 100px;
         min-height: auto;
     }
 
@@ -68,6 +72,10 @@
 
     .medalStyle {
         padding-top: 0;
+    }
+
+    .motTextBox {
+        padding-top: 5%;
     }
 
     .smallTitle {
