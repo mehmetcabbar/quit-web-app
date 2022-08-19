@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../../component/navigation/navbar';
 import SlideImage from '../../component/slideImage/slideImage';
 import Calculation from '../../component/track/calculation';
@@ -8,6 +8,9 @@ import Download from '../../component/download/download';
 import Footer from '../../component/footer/Footer';
 
 function Home() {
+    useEffect(() => {
+        <Navbar />
+    }, [])
     return (
         <div>
             <div className='header-wrapper'>

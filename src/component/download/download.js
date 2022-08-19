@@ -22,7 +22,7 @@ function Download() {
 
                 </p>
                 <div data-aos="fade-up" className='lasDownloadBox'>
-                    <a href='/#' className='linkPadding'>
+                    <a href='https://play.google.com/store/apps/details?id=com.quitbuddyforme' target='blank' className='linkPadding'>
                         <img src={GoogleLink} alt='google link' />
                     </a>
                     <a href='/#' className='appStoreLinkPadding'>

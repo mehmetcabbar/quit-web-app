@@ -5,6 +5,7 @@ import AppStoreLink from '../../images/appstore.svg';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+
     return (
         <div className='footerContainer'>
             <div className='footerBoxWrapper'>
@@ -15,7 +16,9 @@ function Footer() {
                             It's fascinating to see people lives change. Technology can help anyone who wants to change their future and get rid of some of their habits. We want to help anyone who wants to quit smoking via Quit Buddy.
                         </p>
                         <div className='footerDownloadLink'>
-                            <img className='footerGoogle' src={GoogleLink} alt='footer google link' />
+                            <a href='https://play.google.com/store/apps/details?id=com.quitbuddyforme' target='blank'>
+                                <img className='footerGoogle' src={GoogleLink} alt='footer google link' />
+                            </a>
                             <img src={AppStoreLink} alt='footer app store link' />
                         </div>
                     </div>
@@ -42,7 +45,7 @@ function Footer() {
                                 <a href='/#calculation' className='footerServicesLink'>Health</a>
                             </li>
                             <li className='footerServicesLi'>
-                                <a href='/#calculation' className='footerServicesLink'>Achievements</a>
+                                <a href={'/#calculation'} className='footerServicesLink'>Achievements</a>
                             </li>
                         </ul>
                     </div>

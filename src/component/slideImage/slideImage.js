@@ -40,7 +40,7 @@ function SlideImage() {
                     </div>
                     <div className='downloadLink'>
                         <div className='googleLink'>
-                            <a href='/#'>
+                            <a href='https://play.google.com/store/apps/details?id=com.quitbuddyforme' target='blank'>
                                 <img src={GoogleLink} className='googleImage' alt='google play' />
                             </a>
                         </div>
