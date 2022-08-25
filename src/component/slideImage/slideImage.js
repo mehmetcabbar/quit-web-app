@@ -45,7 +45,7 @@ function SlideImage() {
                             </a>
                         </div>
                         <div className='appStoreLink'>
-                            <a href='/#'>
+                            <a href='https://apps.apple.com/us/app/quit-buddy/id1640005942' target='blank'>
                                 <img src={AppStoreLink} className='appStoreImage' alt='app store' />
                             </a>
                         </div>

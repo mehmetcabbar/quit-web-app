@@ -25,7 +25,7 @@ function Download() {
                     <a href='https://play.google.com/store/apps/details?id=com.quitbuddyforme' target='blank' className='linkPadding'>
                         <img src={GoogleLink} alt='google link' />
                     </a>
-                    <a href='/#' className='appStoreLinkPadding'>
+                    <a href='https://apps.apple.com/us/app/quit-buddy/id1640005942' target='blank' className='appStoreLinkPadding'>
                         <img src={AppStoreLink} alt='app store link' />
                     </a>
                 </div>

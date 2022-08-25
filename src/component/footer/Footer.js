@@ -19,7 +19,9 @@ function Footer() {
                             <a href='https://play.google.com/store/apps/details?id=com.quitbuddyforme' target='blank'>
                                 <img className='footerGoogle' src={GoogleLink} alt='footer google link' />
                             </a>
-                            <img src={AppStoreLink} alt='footer app store link' />
+                            <a href='https://apps.apple.com/us/app/quit-buddy/id1640005942' target='blank'>
+                                <img src={AppStoreLink} alt='footer app store link' />
+                            </a>
                         </div>
                     </div>
                     <div className='footerContact'>
